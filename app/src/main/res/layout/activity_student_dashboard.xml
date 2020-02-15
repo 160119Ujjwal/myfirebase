@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/studentDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="This is Student Dashboard" />
+
+    <Button
+        android:id="@+id/btnStudentAddNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Notice" />
+
+    <ListView
+        android:id="@+id/listViewNotice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">myfirebase</string>
+    <string name="input_error_password_length" />
+    <string name="input_error_phone_invalid" />
+    <string name="registration_success">success</string>
+</resources>
